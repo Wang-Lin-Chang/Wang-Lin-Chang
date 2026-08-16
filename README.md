@@ -17,6 +17,13 @@
 | [schedule-core](https://github.com/Wang-Lin-Chang/schedule-core) | Zero-dependency persistent scheduler core 零依赖持久调度核心 | unit 37 + fuzz 200/0 + diff 644/0 |
 | [dsh-schedule](https://github.com/Wang-Lin-Chang/dsh-schedule) | Cross-restart reminders + scheduled jobs 跨重启提醒与定时任务 | 3-platform CI |
 
+**Framework-agnostic specs / 框架无关协议**
+
+| Spec | What it defines / 定义什么 |
+|---|---|
+| [asmfs-spec](https://github.com/Wang-Lin-Chang/asmfs-spec) | Agent State Machine as File System — the directory structure is the state machine 目录即状态机 |
+| [autopsy-spec](https://github.com/Wang-Lin-Chang/autopsy-spec) | Agent Autopsy Format — structured death reports + death-code taxonomy D-01~D-09 结构化尸检报告与死因分类学 |
+
 **Three things we do differently / 三个不同**
 
 1. Every capability claim carries an experiment number and a control group — no slogan enters a README, data does. 每个能力声明带实验编号与对照组——口号不进门，数据进门。
