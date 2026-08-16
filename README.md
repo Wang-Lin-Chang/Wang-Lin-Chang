@@ -16,6 +16,7 @@
 | [dsh-macos](https://github.com/Wang-Lin-Chang/dsh-macos) | macOS sandbox backend (uchg + sandbox-exec) macOS 沙箱后端 | 34/34 ×3 |
 | [schedule-core](https://github.com/Wang-Lin-Chang/schedule-core) | Zero-dependency persistent scheduler core 零依赖持久调度核心 | unit 37 + fuzz 200/0 + diff 644/0 |
 | [dsh-schedule](https://github.com/Wang-Lin-Chang/dsh-schedule) | Cross-restart reminders + scheduled jobs 跨重启提醒与定时任务 | 3-platform CI |
+| [agent-runner-mcp](https://github.com/Wang-Lin-Chang/agent-runner-mcp) | MCP server for the sandboxed runner protocol — Claude Code verified connected MCP 沙箱执行服务 | 15/15 protocol test + 3-platform CI |
 
 **Framework-agnostic specs / 框架无关协议**
 
