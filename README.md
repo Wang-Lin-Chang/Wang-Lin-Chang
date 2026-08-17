@@ -18,6 +18,7 @@
 | [dsh-schedule](https://github.com/Wang-Lin-Chang/dsh-schedule) | Cross-restart reminders + scheduled jobs 跨重启提醒与定时任务 | 3-platform CI |
 | [agent-runner-mcp](https://github.com/Wang-Lin-Chang/agent-runner-mcp) | MCP server for the sandboxed runner protocol — Claude Code verified connected MCP 沙箱执行服务 | 15/15 protocol test + 3-platform CI |
 | [dsh-story](https://github.com/Wang-Lin-Chang/dsh-story) | Long-form novel assistant: story ledger + 14 narrative invariants (zero mis-kills) 长篇网文助手 | 9/9 + real-text tested + 3-platform CI |
+| [dsh-mesh](https://github.com/Wang-Lin-Chang/dsh-mesh) | Multi-Agent Mesh: crash-isolated coordination, files are the messages 多Agent崩溃隔离网 | 3 experiments + 9 assertions |
 
 **Framework-agnostic specs / 框架无关协议**
 
