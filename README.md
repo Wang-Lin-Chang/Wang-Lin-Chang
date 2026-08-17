@@ -25,9 +25,10 @@
 
 ```bash
 npm i dsh-megamesh dsh-mesh dsh-schedule dsh-witness agent-runner-mcp dsh-anchor
+npm i @wang--lin--chang/schedule-core
 ```
 
-> 六个包已上 npm registry（其余仓库：dsh-cross-platform/dsh-macos 是平台后端库、asmfs-spec/autopsy-spec 是协议文档、dsh-story/schedule-core 待 scoped 发布——陆续补齐）。
+> 七个包已上 npm registry（dsh-story 待 2FA token 即发；dsh-cross-platform/dsh-macos 是平台后端库、asmfs-spec/autopsy-spec 是协议文档——以仓库为准）。
 
 **Framework-agnostic specs / 框架无关协议**
 
