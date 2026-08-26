@@ -1,6 +1,6 @@
 # Wang-Lin-Chang
 
-**Open-source suite for DeepSeek Harness — thirteen repos, eight npm packages. Every capability claim carries an experiment number and a control group.**
+**Open-source suite for DeepSeek Harness — fifteen repos, eight npm packages. Every capability claim carries an experiment number and a control group.**
 
 > A 40-minute agent task crashes at minute 39 — output lost, state lost, no way to tell whether it ever finished. We hit that on DeepSeek Harness, and we built this suite to answer it. All Apache-2.0, all three-platform CI green.
 
