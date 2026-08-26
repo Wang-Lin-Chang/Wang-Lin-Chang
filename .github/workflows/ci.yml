@@ -1,0 +1,28 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 2 * * 6" # weekly Saturday self-check
+
+jobs:
+  index-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: License present
+        run: test -f LICENSE
+      - name: Both READMEs present
+        run: |
+          test -f README.md
+          test -f README.zh-CN.md
+      - name: All suite repo links resolve (HTTP 200)
+        run: |
+          set -e
+          repos=$(grep -oE 'https://github\.com/Wang-Lin-Chang/[A-Za-z0-9._-]+' README.md | sort -u)
+          for u in $repos; do
+            code=$(curl -sL -o /dev/null -w "%{http_code}" --max-time 30 "$u")
+            echo "$code $u"
+            [ "$code" = "200" ] || { echo "BROKEN LINK $u"; exit 1; }
+          done
