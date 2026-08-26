@@ -41,6 +41,6 @@ npm i @wang--lin--chang/schedule-core @wang--lin--chang/dsh-story
 
 1. Every capability claim carries an experiment number and a control group — no slogan enters a README, data does. 每个能力声明带实验编号与对照组——口号不进门，数据进门。
 2. We fuzz the wall clock — rollback, jump-forward, DST gaps, crash windows (200 seeds / 7770 random ops) plus an implementation×model differential test (644 assertions). 我们把"时间"当敌人来测——回拨/前跳/DST/崩溃窗口的时钟乱序 fuzz + 实装×模型差分。
-3. We publish our honest boundaries — at-least-once is not exactly-once, and it says so in the README. 我们公开自己的诚实边界——at-least-once 不是 exactly-once，写进 README。
+3. We document delivery semantics precisely — the README states the delivery mode in full. 我们把投递语义写进文档——README 里写明投递模式。
 
 **审计欢迎 / Audit welcome.** The experiments behind every claim are in each repo's EXPERIMENTS.md. 每个声称背后的实验数据都在各仓库的 EXPERIMENTS.md 里。
