@@ -17,22 +17,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: License present
-        run: node -e "require('fs').accessSync('LICENSE');console.log('ok LICENSE')"
-      - name: Both READMEs present
-        run: node -e "const fs=require('fs');fs.accessSync('README.md');fs.accessSync('README.zh-CN.md');console.log('ok both READMEs')"
-      - name: All suite repo links resolve (HTTP 200)
-        run: node -e "
-          const fs = require('fs');
-          const links = [...new Set([...fs.readFileSync('README.md', 'utf8').matchAll(/https:\/\/github\.com\/Wang-Lin-Chang\/[A-Za-z0-9._-]+/g)].map(m => m[0]))];
-          (async () => {
-            let bad = 0;
-            for (const u of links) {
-              const r = await fetch(u, { redirect: 'follow' });
-              console.log(r.status + ' ' + u);
-              if (r.status !== 200) bad++;
-            }
-            if (bad) { console.error(bad + ' broken link(s)'); process.exit(1); }
-            console.log('all ' + links.length + ' links ok');
-          })();
-        "
+      - name: License, READMEs and suite link self-check
+        run: |
+          node .scripts/check-links.mjs
