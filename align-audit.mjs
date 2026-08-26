@@ -48,7 +48,7 @@ function walk(dir) {
 }
 
 function checkRepo(root) {
-  const name = path.basename(root)
+  const name = path.basename(path.resolve(root))
   const fails = []
   const ok = []
   const has = (p) => fs.existsSync(path.join(root, p))
