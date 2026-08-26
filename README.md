@@ -19,7 +19,7 @@
 | [agent-runner-mcp](https://github.com/Wang-Lin-Chang/agent-runner-mcp) | MCP server for the sandboxed runner protocol — Claude Code verified connected MCP 沙箱执行服务 | 15/15 protocol test + 3-platform CI |
 | [dsh-story](https://github.com/Wang-Lin-Chang/dsh-story) | Long-form novel assistant: story ledger + 14 narrative invariants (zero mis-kills) 长篇网文助手 | 9/9 + real-text tested + 3-platform CI |
 | [dsh-mesh](https://github.com/Wang-Lin-Chang/dsh-mesh) | Multi-Agent Mesh: crash-isolated coordination, files are the messages 多Agent崩溃隔离网 | 3 experiments + 9 assertions |
-| [dsh-megamesh](https://github.com/Wang-Lin-Chang/dsh-megamesh) | Super multi-agent architecture: one-brain-thousand-troops, term-lease federation, invariants, timelines, human-machine readable reports 超级多Agent架构体系 | 25 experiments + 68 assertions + 3-platform CI |
+| [dsh-megamesh](https://github.com/Wang-Lin-Chang/dsh-megamesh) | Super multi-agent architecture: one-brain-thousand-troops, term-lease federation, invariants, timelines, human-machine readable reports 超级多Agent架构体系 | 39 experiments (E01–E39) + 127 tests + 3-platform CI |
 
 **npm install / 直接下载安装**
 
