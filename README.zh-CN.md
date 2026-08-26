@@ -6,6 +6,9 @@
 
 English: [README.md](./README.md)。
 
+[![license](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
+[![ci](https://github.com/Wang-Lin-Chang/Wang-Lin-Chang/actions/workflows/ci.yml/badge.svg)](https://github.com/Wang-Lin-Chang/Wang-Lin-Chang/actions/workflows/ci.yml)
+
 | 插件 | 干什么 | 证据 |
 |---|---|---|
 | [dsh-witness](https://github.com/Wang-Lin-Chang/dsh-witness) | 崩溃存活任务：文件系统即真相源、跨重启收养、尸检报告 | 12 场景 / 34 断言 |

@@ -6,6 +6,9 @@
 
 中文版见 [README.zh-CN.md](./README.zh-CN.md)。
 
+[![license](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
+[![ci](https://github.com/Wang-Lin-Chang/Wang-Lin-Chang/actions/workflows/ci.yml/badge.svg)](https://github.com/Wang-Lin-Chang/Wang-Lin-Chang/actions/workflows/ci.yml)
+
 | Plugin | What it does | Evidence |
 |---|---|---|
 | [dsh-witness](https://github.com/Wang-Lin-Chang/dsh-witness) | Crash-surviving jobs: filesystem as source of truth, cross-restart adoption, autopsy reports | 12 scenarios / 34 assertions |
