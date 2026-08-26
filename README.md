@@ -44,3 +44,8 @@ npm i @wang--lin--chang/schedule-core @wang--lin--chang/dsh-story
 3. We document delivery semantics precisely — the README states the delivery mode in full. 我们把投递语义写进文档——README 里写明投递模式。
 
 **审计欢迎 / Audit welcome.** The experiments behind every claim are in each repo's EXPERIMENTS.md. 每个声称背后的实验数据都在各仓库的 EXPERIMENTS.md 里。
+
+## 诚实边界 / Honest boundaries
+
+- 本页是套件索引，不是证据本身：每个能力声明的装置编号、对照组与边界，以对应仓库的 EXPERIMENTS.md 与 README「诚实边界」一节为准。
+- 单机共享文件系统、at-least-once 派发、崩溃容错 ≠ 拜占庭容错等边界，在各仓库逐条写明，不在本页重复。
